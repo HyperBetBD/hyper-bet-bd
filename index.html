@@ -350,7 +350,7 @@
       const cls = h.win ? 'win' : 'lose';
       const label = h.win ? ('+' + h.amount + '  ' + h.mult.toFixed(2) + 'x') : ('-' + h.amount + '  ' + h.mult.toFixed(2) + 'x');
       return '<span class="hchip ' + cls + '">' + label + '</span>';
-    }).join('') || '<span style="color:var(--sub); font-size:0.8rem;">এখনো কোনো রাউন্ড হয়নি</span>';
+    }).join('') || '<span style="color:var(--sub); font-size:0.8rem;">ZERO ROUND</span>';
   }
 
   function pulseBalance(){
