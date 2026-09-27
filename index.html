@@ -167,11 +167,11 @@
   <header>
     <div>
       <h1>HYPER BET BD</h1>
-      <p>শুধু ভার্চুয়াল কয়েন · আসল টাকা নেই</p>
+      <p>GO FOR YOUR DREAM </p>
     </div>
     <div class="balance" id="balanceBox">
       <div class="amt" id="balanceAmt">0</div>
-      <div class="lbl">কয়েন</div>
+      <div class="lbl">COIN</div>
     </div>
   </header>
 
@@ -182,66 +182,66 @@
     <div class="cloud" style="top:20%; right:14%; font-size:1rem; animation-delay:-4s;">☁️</div>
     <div class="cloud" style="bottom:16%; left:20%; font-size:1.1rem; animation-delay:-8s;">☁️</div>
     <div class="trail" id="trail" style="display:none;"></div>
-    <div class="mega-badge" id="megaBadge">🔥 মেগা ফ্লাইট!</div>
+    <div class="mega-badge" id="megaBadge">🔥 TOP FLYING GO FOR BIG WIN</div>
     <div class="plane idle" id="plane" style="left:16%; bottom:22%;">
       <span id="planeEmoji">✈️</span>
       <img id="planeImg" src="assets/plane.jpg" alt="" style="display:none; width:118px; height:auto; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,.5);">
       <div class="beacon"></div>
     </div>
-    <div class="mult pre" id="multDisplay">প্রস্তুত হচ্ছে...</div>
-    <div class="status" id="statusText">পরবর্তী ফ্লাইটের অপেক্ষা...</div>
+    <div class="mult pre" id="multDisplay">WAITING..</div>
+    <div class="status" id="statusText">WAIT FOR NEXT FLY...</div>
   </div>
 
   <div class="panel">
-    <h2 class="section">বাজি</h2>
+    <h2 class="section">FLY</h2>
     <div class="row">
       <input class="bet-input" id="betInput" type="number" min="10" max="1000" step="10" value="100" inputmode="numeric">
     </div>
-    <p style="font-size:0.72rem; color:var(--sub); margin:6px 0 0;">সর্বনিম্ন: ১০ কয়েন &nbsp;·&nbsp; সর্বোচ্চ: ১০০০ কয়েন</p>
+    <p style="font-size:0.72rem; color:var(--sub); margin:6px 0 0;"> MINIMUM: 1 COIN &nbsp;·&nbsp; HIGEST: 85000 COIN</p>
     <div class="chips">
       <div class="chip" data-amt="50">৫০</div>
       <div class="chip" data-amt="100">১০০</div>
       <div class="chip" data-amt="250">২৫০</div>
       <div class="chip" data-amt="500">৫০০</div>
     </div>
-    <button class="main btn-bet" id="actionBtn">বাজি ধরুন (পরের ফ্লাইট)</button>
+    <button class="main btn-bet" id="actionBtn">GO FOR NEXT FLY</button>
   </div>
 
   <div class="panel">
-    <h2 class="section">তোমার পরিসংখ্যান</h2>
+    <h2 class="section">RESULT </h2>
     <div class="stats">
-      <div class="stat"><div class="v" id="statBest">1.00x</div><div class="k">সেরা ক্যাশ-আউট</div></div>
-      <div class="stat"><div class="v" id="statGames">0</div><div class="k">মোট রাউন্ড</div></div>
-      <div class="stat"><div class="v" id="statWins">0</div><div class="k">জয়</div></div>
+      <div class="stat"><div class="v" id="statBest">1.00x</div><div class="k">HIGEST CASH OUT -</div></div>
+      <div class="stat"><div class="v" id="statGames">0</div><div class="k">TOTAL ROUND -</div></div>
+      <div class="stat"><div class="v" id="statWins">0</div><div class="k">WIN</div></div>
     </div>
   </div>
 
   <div class="panel">
-    <h2 class="section">সাম্প্রতিক রাউন্ড</h2>
+    <h2 class="section">HISTORY</h2>
     <div class="history" id="history"></div>
   </div>
 
   <div class="panel">
-    <h2 class="section">কোড রিডিম করুন</h2>
+    <h2 class="section">REDEM YOUR CODE -</h2>
     <div class="row">
       <input class="bet-input" id="redeemInput" type="text" placeholder="যেমন: 100-4821" inputmode="numeric">
     </div>
-    <button class="main btn-bet" id="redeemBtn" style="margin-top:8px;">রিডিম করুন</button>
+    <button class="main btn-bet" id="redeemBtn" style="margin-top:8px;">CONFROM REDEM</button>
     <p id="redeemMsg" style="font-size:0.78rem; color:var(--sub); text-align:center; margin:8px 0 0;"></p>
   </div>
 
   <div class="panel">
-    <h2 class="section">কয়েন বাদ দিন</h2>
+    <h2 class="section">REMOVE COIN</h2>
     <div class="row">
-      <input class="bet-input" id="subtractInput" type="number" min="1" placeholder="কত কয়েন বাদ দেবেন" inputmode="numeric">
+      <input class="bet-input" id="subtractInput" type="number" min="1" placeholder="ENTER AMOUNT " inputmode="numeric">
     </div>
-    <button class="main btn-queued" id="subtractBtn" style="margin-top:8px;">বাদ দিন</button>
+    <button class="main btn-queued" id="subtractBtn" style="margin-top:8px;">CONFROM REMOVE </button>
     <p id="subtractMsg" style="font-size:0.78rem; color:var(--sub); text-align:center; margin:8px 0 0;"></p>
   </div>
 
-  <button class="chip" id="resetBtn" style="width:100%; margin-top:2px;">রিসেট (কয়েন শূন্য করুন)</button>
+  <button class="chip" id="resetBtn" style="width:100%; margin-top:2px;">RESET COIN -</button>
 
-  <p class="note">এটি একটি সচেতনতামূলক আর্কেড গেম — শুধু কাল্পনিক কয়েন দিয়ে খেলা হয়, কোনো আসল টাকা লাগে না, জেতে না, হারায় না। ফ্লাইট নিজে থেকেই বারবার ওড়ে; আপনি প্রতি রাউন্ডে বাজি ধরবেন কি না তা নিজেই বেছে নেন।</p>
+  <p class="note">BANGLADESHI TOP TRUSTED FAIRPLAY SITE GO FOR BIG WIN</p>
 </div>
 
 <script>
@@ -419,10 +419,10 @@
     multDisplay.className = 'mult pre';
 
     if(queuedBet){
-      actionBtn.textContent = 'বাজি বাতিল করুন (' + queuedBet + ' কয়েন বসানো আছে)';
+      actionBtn.textContent = CANCEL (' + queuedBet + ' BET DONE';
       actionBtn.className = 'main btn-queued';
     }else{
-      actionBtn.textContent = 'বাজি ধরুন (পরের ফ্লাইট)';
+      actionBtn.textContent = 'NEXT BET;
       actionBtn.className = 'main btn-bet';
     }
     actionBtn.disabled = false;
@@ -437,8 +437,8 @@
     const secs = Math.ceil(remain / 1000);
     multDisplay.textContent = secs + 's';
     statusText.textContent = queuedBet
-      ? ('বাজি বসানো আছে (' + queuedBet + ' কয়েন) — ফ্লাইট উড়তে যাচ্ছে...')
-      : 'চাইলে বাজি ধরুন, নাহলে এই রাউন্ড স্কিপ হবে';
+      ? ('BET ADDED(' + queuedBet + ' COIN) — GO FOR FLY...')
+      : 'GO FOR FLY? ;
 
     if(remain <= 0){
       startFlying(myRound);
@@ -469,23 +469,23 @@
       const bet = queuedBet;
       queuedBet = null;
       if(bet > state.balance){
-        statusText.textContent = 'পর্যাপ্ত কয়েন নেই, এই রাউন্ড দেখুন শুধু';
+        statusText.textContent = 'YOU HAVE NOT ENOUGH COIN';
         actionBtn.disabled = true;
       }else{
         activeBet = { amount: bet, cashed:false, cashMult:0 };
         state.balance -= bet;
         pulseBalance();
         render();
-        actionBtn.textContent = 'ক্যাশ-আউট';
+        actionBtn.textContent = 'CASH OUT -';
         actionBtn.className = 'main btn-cash';
         actionBtn.disabled = false;
-        statusText.textContent = 'উড়ছে... সময়মতো ক্যাশ-আউট করুন';
+        statusText.textContent = 'FLYING WAIT FOR BIG WIN';
       }
     }else{
-      actionBtn.textContent = 'বাজি ধরুন (পরের ফ্লাইট)';
+      actionBtn.textContent = 'GO FOR NEXT FLIGHT ';
       actionBtn.className = 'main btn-bet';
       actionBtn.disabled = true;
-      statusText.textContent = 'উড়ছে... (এই রাউন্ডে আপনি বাজি ধরেননি)';
+      statusText.textContent = 'FLYING GO FOR NEXT ROUND';
     }
     betInput.disabled = true;
 
@@ -557,10 +557,10 @@
     flashEffect('win');
     floatCoin('+' + winnings, 55, 55, 'var(--win)');
 
-    actionBtn.textContent = 'ক্যাশ-আউট হয়েছে ✓';
+    actionBtn.textContent = 'CASH OUT -';
     actionBtn.className = 'main btn-queued';
     actionBtn.disabled = true;
-    statusText.textContent = mult.toFixed(2) + 'x এ ক্যাশ-আউট! +' + winnings + ' কয়েন';
+    statusText.textContent = mult.toFixed(2) + 'x CASH OUT AMOUNT  +' + winnings + ' COIN';
   }
 
   function crashRound(myRound, finalMult){
@@ -584,11 +584,11 @@
       save();
       render();
       flashEffect('crash');
-      statusText.textContent = 'ফেটে গেল! ' + activeBet.amount + ' কয়েন হারিয়েছেন';
+      statusText.textContent = 'ফেটে গেল FAAH! ' + activeBet.amount + ' COIN LOSTED';
     }else if(activeBet && activeBet.cashed){
-      statusText.textContent = 'ফেটে গেল — কিন্তু আপনি আগেই ক্যাশ-আউট করেছেন ✓';
+      statusText.textContent = 'CASH OUT DONE ALREADY';
     }else{
-      statusText.textContent = 'ফেটে গেল ' + finalMult.toFixed(2) + 'x এ — এই রাউন্ডে আপনি খেলেননি';
+      statusText.textContent = 'ফেটে গেল FAAH' + finalMult.toFixed(2) + 'x Didn't play this time';
     }
 
     actionBtn.disabled = true;
@@ -617,29 +617,29 @@
     if(phase === 'waiting'){
       if(queuedBet){
         queuedBet = null;
-        actionBtn.textContent = 'বাজি ধরুন (পরের ফ্লাইট)';
+        actionBtn.textContent = 'GO FOR NEXT FLIGHT ';
         actionBtn.className = 'main btn-bet';
         betInput.disabled = false;
-        statusText.textContent = 'বাজি বাতিল হয়েছে';
+        statusText.textContent = 'FLY CANCELLED';
       }else{
         const bet = Math.floor(Number(betInput.value));
         if(!bet || bet < 10){
-          statusText.textContent = 'কমপক্ষে ১০ কয়েন বাজি ধরুন';
+          statusText.textContent = 'MINIMUM 1 COIN';
           return;
         }
         if(bet > 1000){
-          statusText.textContent = 'সর্বোচ্চ ১০০০ কয়েন পর্যন্ত বাজি ধরা যাবে';
+          statusText.textContent = 'HIGEST 95000 COIN';
           return;
         }
         if(bet > state.balance){
-          statusText.textContent = 'পর্যাপ্ত কয়েন নেই';
+          statusText.textContent = 'YOU HAVE NOT ENOUGH COIN';
           return;
         }
         queuedBet = bet;
-        actionBtn.textContent = 'বাজি বাতিল করুন (' + bet + ' কয়েন বসানো আছে)';
+        actionBtn.textContent = 'CANCEL FLY (' + bet + ' COIN ADDED)';
         actionBtn.className = 'main btn-queued';
         betInput.disabled = true;
-        statusText.textContent = 'বাজি বসানো হয়েছে, ফ্লাইট শুরুর অপেক্ষায়';
+        statusText.textContent = 'WAIT FOR FLY';
       }
     }
   });
@@ -680,17 +680,17 @@
     setTimeout(()=>{ redeemLock = false; }, 300);
 
     const raw = redeemInput.value.trim();
-    if(!raw){
-      redeemMsg.textContent = 'একটা কোড লিখুন';
+    if(!raw){FALSE CODE 
+      redeemMsg.textContent = 'Type Redem Code -';
       return;
     }
     const amount = parseRedeemCode(raw);
     if(amount === null){
-      redeemMsg.textContent = 'ভুল কোড';
+      redeemMsg.textContent = '';
       return;
     }
     if(state.redeemedCodes.includes(raw)){
-      redeemMsg.textContent = 'এই কোডটা আগেই ব্যবহার হয়েছে';
+      redeemMsg.textContent = 'ALREADY USED';
       return;
     }
     state.balance += amount;
@@ -698,7 +698,7 @@
     save();
     pulseBalance();
     render();
-    redeemMsg.textContent = '+' + amount + ' কয়েন যোগ হয়েছে!';
+    redeemMsg.textContent = '+' + amount + ' COIN ADDED -';
     redeemInput.value = '';
   });
 
@@ -710,18 +710,18 @@
 
     const amt = Math.floor(Number(subtractInput.value));
     if(!amt || amt <= 0){
-      subtractMsg.textContent = 'একটা সঠিক সংখ্যা লিখুন';
+      subtractMsg.textContent = 'TYPE CORRECT NUMBER';
       return;
     }
     if(amt > state.balance){
-      subtractMsg.textContent = 'আপনার কাছে এত কয়েন নেই';
+      subtractMsg.textContent = 'YOU HAVE NOT ENOUGH COIN';
       return;
     }
     state.balance -= amt;
     save();
     pulseBalance();
     render();
-    subtractMsg.textContent = amt + ' কয়েন বাদ দেওয়া হয়েছে';
+    subtractMsg.textContent = amt + ' COIN REMOVED';
     subtractInput.value = '';
   });
 
@@ -731,7 +731,7 @@
     resetLock = true;
     setTimeout(()=>{ resetLock = false; }, 300);
 
-    if(!confirm('কয়েন শূন্য (০) করে দেওয়া হবে, কোনো এক্সট্রা কয়েন পাবেন না। নিশ্চিত?')) return;
+    if(!confirm('GO FOR 0 COIN YOU READY?')) return;
     state.balance = 0;
     save();
     pulseBalance();
